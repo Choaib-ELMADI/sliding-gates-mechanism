@@ -4,6 +4,12 @@
 
 This repository contains all the resources for implementing the sliding gates mechanism used in the `RoboBasket Challenge 2024` by `SEECS Club` ENSA Marrakech. The gates are designed as an obstacle that robots must detect and navigate through during the competition.
 
+<div align="center">
+
+![RoboBasket Challenge 2024](./Images/seecs-robobasket-challenge-2024.png)
+
+</div>
+
 ## Contents
 
 - **3D Models**: STL files for the sliding doors mechanism, designed for 3D printing.
