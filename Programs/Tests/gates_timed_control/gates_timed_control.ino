@@ -7,7 +7,7 @@ const uint8_t IN1 = 4;
 const uint8_t IN2 = 5;
 const uint8_t ENA = 6;
 
-int motorBaseSpeed = 100;
+int motorBaseSpeed = 75;
 
 const unsigned long closeGatesDuration = 3000UL;
 const unsigned long openGatesDuration = 10000UL;
@@ -41,6 +41,15 @@ void loop() {
 
     closeLimitSwitchActive = digitalRead(closeLimitSwitchPin);
     openLimitSwitchActive = digitalRead(openLimitSwitchPin);
+
+    /*
+    stopGates();
+    delay(1000);
+    closeGates();
+    delay(3000);
+    openGates();
+    delay(10000);
+    */
 
     switch (gatesCurrentState) {
     case OPENING:
