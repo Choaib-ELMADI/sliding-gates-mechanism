@@ -24,6 +24,12 @@ This repository contains all the resources for implementing the sliding gates me
   - Sliding in-and-out door mechanism.
   - Precise timing for seamless integration into the competition.
 
+<div align="center">
+
+![Mechanism Overview](./Images/mechanism-overview.png)
+
+</div>
+
 ## Usage
 
 1. **3D Printing**:
