@@ -13,8 +13,8 @@ This repository contains all the resources for implementing the sliding gates me
 ## Contents
 
 - **3D Models**: STL files for the sliding doors mechanism, designed for 3D printing.
-- **Programs**: Control logic for the gates' open/close timing and operation.
-- **Documentation**: Circuit diagrams and technical specifications for the mechanism.
+- **Programs**: Control logic for single and multiple gates' open/close timing and operation.
+- **Docs**: Includes the specifications document for the competition.
 
 ## Mechanism Overview
 
@@ -31,7 +31,8 @@ This repository contains all the resources for implementing the sliding gates me
    - Use the STL files provided in the `3D Models` folder to fabricate the physical components of the gates.
 
 2. **Assembly and Code Deployment**:
+   - Assemble the mechanism and deploy the code to an Arduino or any other microcontroller.
 
-   - Follow the instructions in the documentation for assembling the gates and deploying the control logic.
+This repository contains all finalized components for the sliding gates mechanism.
 
-This repository is under active development and will include all finalized components upon completion.
+Feel free to use this project, suggest updates, or share your feedback to help improve it.
